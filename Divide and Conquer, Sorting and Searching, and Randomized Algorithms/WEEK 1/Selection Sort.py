@@ -23,8 +23,6 @@ for _ in range(30):
     arr.append(random)
 
 print(selectionSort(arr))
-
-
 """
     
 

@@ -35,6 +35,7 @@ def mergeSort(arr,start,end):
     elif (start == end) and (len(arr[start:end+1]) == 0): # if array has no element
         return []
     
+    
     halfPoint = int((end-start) / 2) # partition the array
     return merge(mergeSort(arr,start,start+halfPoint),mergeSort(arr,start+halfPoint + 1,end)) # merge two sub arrays
 
@@ -56,7 +57,6 @@ print(mergeSort(arr,0,len(arr)))
 
 *******************
 """
-
     
 
 
